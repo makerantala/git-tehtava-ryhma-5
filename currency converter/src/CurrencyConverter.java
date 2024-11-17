@@ -12,7 +12,8 @@ public class CurrencyConverter {
         System.out.println("Määritä summa: "); 
         double amount = scanner.nextDouble();// Insert the amount you want to convert.
 
-
+        System.out.println("Vaihda (1) Dollareihin vai (2) Euroihin");
+        int choice = scanner.nextInt(); // user needs to choose 1 to convert to dollars or 2 to euros.
 
 
 
