@@ -9,6 +9,14 @@ public class CurrencyConverter {
         
         Scanner scanner = new Scanner(System.in); //Variables determined.
 
+        System.out.println("Määritä summa: "); 
+        double amount = scanner.nextDouble();// Insert the amount you want to convert.
+
+
+
+
+
+
 
 
     }
