@@ -18,10 +18,9 @@ public class CurrencyConverter {
         double result = choice == 1 ? amount * EURO_TO_USD_RATE : amount * USD_TO_EURO_RATE;
         String kohdeValuutta = choice == 1 ? "Dollarit" : "Eurot"; // Add logic for currency conversion and target currency selection
 
-
+        System.out.printf("Vaihdettu summa: %.2f %s%n", result, kohdeValuutta); //Print the final result.
        
-
-
+        scanner.close(); //Close the scanner.
 
     }
 }
